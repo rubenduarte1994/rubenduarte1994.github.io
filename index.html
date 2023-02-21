@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/de2408a58f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header" <div class="container">
+      <nav>
+        <a href="#"><img src="images/logo.png" class="logo"/></a>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#previousworks">Previous Works</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact">Contacts</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Geographer/GIS Specialist</p>
+        <h1>Hi, I'm <span>Rúben Duarte</span><br />from Portugal.</h1>
+      </div>
+    </div>
+<!--ABOUT ME-->
+<!--ABOUT ME-->
+<!--ABOUT ME-->
+<!--ABOUT ME-->
+<!--ABOUT ME-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img class="user1" src="images/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">&ltabout-me&gt</h1>
+            <p>
+              My name is Rúben Duarte, I'm 29 years old, and I live in Porto,
+              Portugal. I started my journey in the Geography field in 2012
+              right after I joined the Faculty of Arts and Humanities of Porto
+              University. In 2016, after I completed my
+              bachelor degree, I started my Master's in GIS and Spatial
+              Planning. <p class="space"></p>Two years later, I started an internship in my
+              local parish, where I developed an illustrated map using GIS and
+              Illustration softwares. <p class="space">After the internship, I joined Hidurbe
+              Serviços, S.A., a company I stood for 4 years working as a
+              Geographer and GIS Specialist. In my 4 years in this company, I
+              developed many skills, such as field work (GPS surveys), risk
+              mapping, network analysis, among others.<p class="space">Recently, in 2022, I
+              joined a new company (BizFuture) as a Geographer and GIS Specialist.
+            </p>
+            </p>
+            </p>
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>GIS</span><br />Editing, Risk Mapping, Network Analysis,
+                  among others.
+                </li>
+                <li><span>Design</span><br />Illustrations.</li>
+                <li>
+                  <span>GPS Data Collection</span><br />Field Work: Data Collection.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2018</span><br />GIS Specialist and Illustrator at U.F.
+                  Pedroso e Seixezelo
+                </li>
+                <li>
+                  <span>2018 - 2022</span><br />Geographer and GIS Specialist at
+                  Hidurbe Serviços, S.A.
+                </li>
+                <li>
+                  <span>2022</span><br />Geographer and GIS Specialist at
+                  BizFuture
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Bachelor</span><br />Geography, Faculty of Arts and
+                  Humanities of Porto University
+                </li>
+                <li>
+                  <span>Master</span><br />Geography Informations Systems and Spatial Planning,
+                  Faculty of Arts and Humanities of Porto University
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--SERVICES-->
+<!--SERVICES-->
+<!--SERVICES-->
+<!--SERVICES-->
+<!--SERVICES-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">&ltservices&gt</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <h2>Geographer</h2>
+            <p>Acquisition of a broad knowledge on territorial issues, explain and test explanatory models, and apply methodologies for analysis, diagnosis and intervention on the territory.</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-layer-group"></i>
+            <h2>GIS Specialist</h2>
+            <p>Promote the deepening of knowledge in the cartography, geographical information systems; and in the scope of planning and spatial planning, to apply explicative models and diagnosis methodologies and to propose territorial intervention areas.</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-js"></i>
+            <h2>Javascript Developer</h2>
+            <p>Develop web-based applications and web browsers. </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--PREVIOUS WORKS-->
+<!--PREVIOUS WORKS-->
+<!--PREVIOUS WORKS-->
+<!--PREVIOUS WORKS-->
+<!--PREVIOUS WORKS-->
+    <div id="previousworks">
+      <div class="container">
+        <h1 class="sub-title">&ltprevious-works&gt</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+              <h3>Risks associated with climate change</h3>
+              <p>Set of studies that identied the places/areas that were particularly vulnerable to the current or future climate impacts of climate change (CIM-TTM).</p>
+              <a href="https://ide.cim-ttm.pt/protcivil/contexto/documentacao/cimttm" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+              <h3>Water and Sanitation Networks</h3>
+              <p>Registration and georeference of water and sanitation networks for several counties - Vinhais, Chaves, Paredes de Coura, Peniche and Lagos (Portugal).</p>
+              <a href="https://www.hidurbe.pt/pt/areas-de-atividade/cadastro" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+              <h3>Network Analysis for Lagos (Algarve) county</h3>
+              <p>Optimization of the residential waste disposal routes using Network Analysis tools.</p>
+              <a href="https://www.hidurbe.pt/pt/noticia/servicos-urbanos-lagos" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          </div>
+          <div>
+            <a class="btn">See more</a>
+          </div> 
+        </div>
+        <div class="container">
+          <div class="work-list-2 hidden">
+            <div class="work">
+            <img src="images/work-4.png">
+            <div class="layer">
+              <h3>Illustrations</h3>
+              <p>Digital portrait illustrations using Adobe Illustrator as a primarly tool.</p>
+            </div>
+          </div>         
+          <div class="work">
+            <img src="images/work-5.png">
+            <div class="layer">
+              <h3>Emergency and Civil Protection Plans</h3>
+              <p>Formal documents that defined the way of operation for various services and structures to engage in civil protection operations at a municipal level (Alfândega da Fé, Ponte de Sor, Vila Flor, among others - Portugal).</p>
+              <a href="http://planos.prociv.pt/Pages/planos.aspx" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-6.png">
+            <div class="layer">
+              <h3>Several Digital Apps</h3>
+              <p>Design of various Web Apps using Javascript.</p>
+              <a href="https://github.com/rubenduarte1994" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>  
+        <div>
+          <a class="btn3 hidden">Hide</a>
+        </div>            
+    </div>
+<!--HOBBIES-->
+<!--HOBBIES-->
+<!--HOBBIES-->
+<!--HOBBIES-->
+<!--HOBBIES-->
+<div id="hobbies">
+    <div class="container">
+      <h1 class="sub-title">&lthobbies&gt</h1>
+      <div class="hobbies-list">
+        <div class="hobbies">
+          <div class="layer-hobbies">
+            <h1>Working Out</h1>
+          </div>
+          <img src="images/hobbie-1.png">
+        </div>
+        <div class="hobbies">
+          <div class="layer-hobbies">
+            <h1>Road Cycling</h1>
+          </div>
+          <img src="images/hobbie-2.png">
+        </div>
+        <div class="hobbies">
+          <div class="layer-hobbies">
+            <h1>Playing Guitar</h1>
+          </div>
+          <img src="images/hobbie-3.png">
+        </div>
+        </div>
+      </div>    
+    </div>  
+
+<!--CONTACT-->
+<!--CONTACT-->
+<!--CONTACT-->
+<!--CONTACT-->
+<!--CONTACT-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> ruben_duarte15@hotmail.com</p>
+            <div class="social-icons">
+            <a href="https://www.linkedin.com/in/r%C3%BAben-duarte-04bb7b15a/"><i class="fa-brands fa-linkedin"></i></a>Click to visit my LinkedIn
+          </div>
+          <a href="cv/cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      
+
+      <div>
+        <div id="bottom" <div class="container2"></div>
+        <nav class="bottommenu">
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#previousworks">Previous Works</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </nav>
+        </div>
+    
+      <div class="copyright">
+        <p>Copyright: Rúben Duarte <i class="fa-solid fa-copyright"></i></p>
+      </div>
+    </div>
+<!--TEST-->
+<!--TEST-->   
+<!--TEST-->   
+<!--TEST-->   
+<!--TEST-->   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--SCRIPTS-->
+<!--SCRIPTS-->
+<!--SCRIPTS-->
+<!--SCRIPTS-->
+<!--SCRIPTS-->
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwHdqTiLNk56SHItabRUUXMO5TnSEFh8w_AbHRUb5FlRzeN_yje8j6J_PpaBeaOzZPCbg/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+              msg.innerHTML=""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+  <script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove('active-link');
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove('active-tab');
+      }
+      event.currentTarget.classList.add('active-link');
+      document.getElementById(tabname).classList.add('active-tab');
+    }
+  </script>
+  <script>
+    var sidemenu= document.getElementById("sidemenu")
+
+    function openmenu(){
+      sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+      sidemenu.style.right="-200px";
+    }
+  </script>
+  <script>
+  const seeMore = document.querySelector(".btn");
+  const moreJobs = document.querySelector(".work-list-2");
+  const hideButton = document.querySelector(".btn3");
+// Expandir mais projetos  e esconde o botão "See more...""
+   seeMore.addEventListener('click', function(){
+    moreJobs.classList.remove("hidden");
+    seeMore.classList.add("hidden");
+    hideButton.classList.remove("hidden");
+   });
+// Reverter expansão de projetos e esconder o botão de "Hide"
+   hideButton.addEventListener('click', function(){
+    moreJobs.classList.add("hidden");
+    seeMore.classList.remove("hidden");
+    hideButton.classList.add("hidden");
+   });
+  
+    </script>
+</html>
